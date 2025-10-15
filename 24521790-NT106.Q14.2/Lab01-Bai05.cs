@@ -121,5 +121,10 @@ namespace _24521790_NT106.Q14._2
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
         }
+
+        private void txtB_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

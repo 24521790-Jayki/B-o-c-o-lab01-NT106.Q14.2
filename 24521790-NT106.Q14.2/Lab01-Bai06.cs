@@ -70,5 +70,10 @@ namespace _24521790_NT106.Q14._2
             else
                 return "Không xác định";
         }
+
+        private void btnXemCungHoangDao_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

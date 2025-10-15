@@ -40,70 +40,77 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(20, 34);
+            label1.Location = new Point(16, 27);
+            label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
-            label1.Size = new Size(245, 25);
+            label1.Size = new Size(199, 20);
             label1.TabIndex = 0;
             label1.Text = "Nhập 1 số nguyên từ 0 đến 9";
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(405, 36);
+            textBox1.Location = new Point(324, 29);
+            textBox1.Margin = new Padding(2, 2, 2, 2);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(150, 31);
+            textBox1.Size = new Size(121, 27);
             textBox1.TabIndex = 1;
+            textBox1.TextChanged += textBox1_TextChanged;
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(405, 293);
+            textBox2.Location = new Point(324, 234);
+            textBox2.Margin = new Padding(2, 2, 2, 2);
             textBox2.Name = "textBox2";
             textBox2.ReadOnly = true;
-            textBox2.Size = new Size(309, 31);
+            textBox2.Size = new Size(248, 27);
             textBox2.TabIndex = 2;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(255, 299);
+            label2.Location = new Point(204, 239);
+            label2.Margin = new Padding(2, 0, 2, 0);
             label2.Name = "label2";
-            label2.Size = new Size(85, 25);
+            label2.Size = new Size(70, 20);
             label2.TabIndex = 3;
             label2.Text = "Phiên âm";
             // 
             // button1
             // 
-            button1.Location = new Point(659, 74);
+            button1.Location = new Point(527, 59);
+            button1.Margin = new Padding(2, 2, 2, 2);
             button1.Name = "button1";
-            button1.Size = new Size(112, 34);
+            button1.Size = new Size(90, 27);
             button1.TabIndex = 4;
             button1.Text = "Đọc";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
-            
             // 
             // button2
             // 
-            button2.Location = new Point(659, 143);
+            button2.Location = new Point(527, 114);
+            button2.Margin = new Padding(2, 2, 2, 2);
             button2.Name = "button2";
-            button2.Size = new Size(112, 34);
+            button2.Size = new Size(90, 27);
             button2.TabIndex = 5;
             button2.Text = "Xóa";
             button2.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
-            button3.Location = new Point(659, 219);
+            button3.Location = new Point(527, 175);
+            button3.Margin = new Padding(2, 2, 2, 2);
             button3.Name = "button3";
-            button3.Size = new Size(112, 34);
+            button3.Size = new Size(90, 27);
             button3.TabIndex = 6;
             button3.Text = "Thoát";
             button3.UseVisualStyleBackColor = true;
             // 
             // Lab01_Bai03
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(640, 360);
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
@@ -111,6 +118,7 @@
             Controls.Add(textBox2);
             Controls.Add(textBox1);
             Controls.Add(label1);
+            Margin = new Padding(2, 2, 2, 2);
             Name = "Lab01_Bai03";
             Text = "Lab01_Bai03";
             ResumeLayout(false);

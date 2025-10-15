@@ -46,5 +46,9 @@ namespace _24521790_NT106.Q14._2
             textBox2.Text = ketQua;
         }
 
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -57,6 +57,7 @@
             btnPhanTich.TabIndex = 2;
             btnPhanTich.Text = "Kết quả hoc tập";
             btnPhanTich.UseVisualStyleBackColor = true;
+            btnPhanTich.Click += btnPhanTich_Click_1;
             // 
             // Lab01_Bai07
             // 

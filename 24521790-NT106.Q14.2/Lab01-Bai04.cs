@@ -29,24 +29,41 @@ namespace _24521790_NT106.Q14._2
         {
             InitializeComponent();
             NapDuLieu();
+            ThemChuThichLoaiGhe();
         }
 
         /// <summary>
-        /// Nạp dữ liệu khởi tạo cho ComboBox phim và phòng chiếu
+        /// Nạp dữ liệu cho ComboBox và danh sách ghế
         /// </summary>
         private void NapDuLieu()
         {
             cbChonPhim.Items.AddRange(danhSachPhim.Keys.ToArray());
             cbChonPhongChieu.Items.AddRange(new string[] { "1", "2", "3" });
 
-            // Nạp ghế
+            // Nạp ghế A1–A5, B1–B5, C1–C5
             foreach (var hang in new[] { "A", "B", "C" })
                 foreach (var so in Enumerable.Range(1, 5))
                     clbChoNgoi.Items.Add($"{hang}{so}");
         }
 
         /// <summary>
-        /// Sự kiện khi nhấn nút "Thanh toán"
+        /// Thêm chú thích loại ghế (hiển thị trên Form)
+        /// </summary>
+        private void ThemChuThichLoaiGhe()
+        {
+            Label lblChuThich = new Label();
+            lblChuThich.AutoSize = true;
+            lblChuThich.Location = new System.Drawing.Point(400, 250);
+            lblChuThich.Text =
+                "📘 Loại ghế:\n" +
+                "🟥 Vé vớt: A1, A5, C1, C5\n" +
+                "⬜ Vé thường: A2–A4, C2–C4\n" +
+                "🟩 Vé VIP: B2, B3, B4";
+            this.Controls.Add(lblChuThich);
+        }
+
+        /// <summary>
+        /// Xử lý khi nhấn nút “Thanh toán”
         /// </summary>
         private void btnThanhToan_Click(object sender, EventArgs e)
         {
@@ -75,10 +92,10 @@ namespace _24521790_NT106.Q14._2
             int phongInt = int.Parse(phong);
             var (giaChuan, dsPhongHopLe) = danhSachPhim[phim];
 
-            // Kiểm tra phòng chiếu hợp lệ cho phim
+            // Kiểm tra phim có chiếu ở phòng đó không
             if (!dsPhongHopLe.Contains(phongInt))
             {
-                MessageBox.Show($"Phim '{phim}' không chiếu tại phòng {phong}.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show($"Phim '{phim}' không chiếu tại phòng {phong}.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
@@ -86,13 +103,13 @@ namespace _24521790_NT106.Q14._2
             var gheDaChon = clbChoNgoi.CheckedItems.Cast<string>().ToList();
             if (gheDaChon.Count == 0)
             {
-                MessageBox.Show("Vui lòng chọn ít nhất 1 chỗ ngồi!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Vui lòng chọn ít nhất 1 ghế!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
             if (gheDaChon.Count > 2)
             {
-                MessageBox.Show("Không thể chọn nhiều hơn 2 ghế!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Không thể chọn quá 2 ghế!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
@@ -101,7 +118,7 @@ namespace _24521790_NT106.Q14._2
             {
                 if (gheDaBan.Contains($"{phim}-{phong}-{ghe}"))
                 {
-                    MessageBox.Show($"Ghế {ghe} đã được mua trước đó!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    MessageBox.Show($"⚠️ Ghế {ghe} đã được bán!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     return;
                 }
             }
@@ -131,12 +148,16 @@ namespace _24521790_NT106.Q14._2
                 $"💰 Tổng tiền: {tongTien:N0} đ";
 
             rtbKetQua.Text = ketQua;
-
             MessageBox.Show(ketQua, "Thông tin vé phim", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
             // Bỏ chọn ghế sau khi thanh toán
             for (int i = 0; i < clbChoNgoi.Items.Count; i++)
                 clbChoNgoi.SetItemChecked(i, false);
+        }
+
+        private void txtHoTenKhachHang_TextChanged(object sender, EventArgs e)
+        {
+            // Không cần xử lý gì ở đây
         }
     }
 }

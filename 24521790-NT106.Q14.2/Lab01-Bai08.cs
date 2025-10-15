@@ -109,5 +109,10 @@ namespace _24521790_NT106.Q14._2
             if (result == DialogResult.Yes)
                 this.Close();
         }
+
+        private void lbDanhSachMonAn_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

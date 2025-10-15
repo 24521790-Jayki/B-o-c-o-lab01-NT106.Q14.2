@@ -45,6 +45,16 @@ namespace _24521790_NT106.Q14._2
             txtHoTenKhachHang.Name = "txtHoTenKhachHang";
             txtHoTenKhachHang.Size = new Size(200, 27);
             txtHoTenKhachHang.TabIndex = 0;
+            txtHoTenKhachHang.TextChanged += txtHoTenKhachHang_TextChanged;
+            // 
+            // rtbKetQua
+            // 
+            rtbKetQua.Location = new Point(125, 278);
+            rtbKetQua.Name = "rtbKetQua";
+            rtbKetQua.ReadOnly = true;
+            rtbKetQua.Size = new Size(235, 160);
+            rtbKetQua.TabIndex = 5;
+            rtbKetQua.Text = "";
             // 
             // cbChonPhim
             // 
@@ -68,12 +78,12 @@ namespace _24521790_NT106.Q14._2
             clbChoNgoi.FormattingEnabled = true;
             clbChoNgoi.Location = new Point(420, 40);
             clbChoNgoi.Name = "clbChoNgoi";
-            clbChoNgoi.Size = new Size(150, 200);
+            clbChoNgoi.Size = new Size(150, 180);
             clbChoNgoi.TabIndex = 3;
             // 
             // btnThanhToan
             // 
-            btnThanhToan.Location = new Point(260, 200);
+            btnThanhToan.Location = new Point(195, 201);
             btnThanhToan.Name = "btnThanhToan";
             btnThanhToan.Size = new Size(120, 35);
             btnThanhToan.TabIndex = 4;
@@ -81,21 +91,13 @@ namespace _24521790_NT106.Q14._2
             btnThanhToan.UseVisualStyleBackColor = true;
             btnThanhToan.Click += btnThanhToan_Click;
             // 
-            // rtbKetQua
-            // 
-            rtbKetQua.Location = new Point(100, 260);
-            rtbKetQua.Name = "rtbKetQua";
-            rtbKetQua.ReadOnly = true;
-            rtbKetQua.Size = new Size(470, 160);
-            rtbKetQua.TabIndex = 5;
-            rtbKetQua.Text = "";
-            // 
             // lblTen
             // 
             lblTen.AutoSize = true;
             lblTen.Location = new Point(40, 43);
             lblTen.Name = "lblTen";
-            lblTen.Size = new Size(114, 20);
+            lblTen.Size = new Size(99, 20);
+            lblTen.TabIndex = 3;
             lblTen.Text = "Họ tên khách:";
             // 
             // lblPhim
@@ -103,7 +105,8 @@ namespace _24521790_NT106.Q14._2
             lblPhim.AutoSize = true;
             lblPhim.Location = new Point(40, 93);
             lblPhim.Name = "lblPhim";
-            lblPhim.Size = new Size(91, 20);
+            lblPhim.Size = new Size(84, 20);
+            lblPhim.TabIndex = 2;
             lblPhim.Text = "Chọn phim:";
             // 
             // lblPhong
@@ -111,7 +114,8 @@ namespace _24521790_NT106.Q14._2
             lblPhong.AutoSize = true;
             lblPhong.Location = new Point(40, 143);
             lblPhong.Name = "lblPhong";
-            lblPhong.Size = new Size(106, 20);
+            lblPhong.Size = new Size(93, 20);
+            lblPhong.TabIndex = 1;
             lblPhong.Text = "Phòng chiếu:";
             // 
             // lblGhe
@@ -119,7 +123,8 @@ namespace _24521790_NT106.Q14._2
             lblGhe.AutoSize = true;
             lblGhe.Location = new Point(420, 17);
             lblGhe.Name = "lblGhe";
-            lblGhe.Size = new Size(79, 20);
+            lblGhe.Size = new Size(75, 20);
+            lblGhe.TabIndex = 0;
             lblGhe.Text = "Chọn ghế:";
             // 
             // Lab01_Bai04

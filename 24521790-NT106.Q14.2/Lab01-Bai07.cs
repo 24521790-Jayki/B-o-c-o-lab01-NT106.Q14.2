@@ -123,11 +123,16 @@ namespace _24521790_NT106.Q14._2
             else
                 return "Kém";
         }
-    
 
-    private void textBox1_TextChanged(object sender, EventArgs e)
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
             // Không làm gì cả
+        }
+
+        private void btnPhanTich_Click_1(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -84,6 +84,7 @@
             btnXemCungHoangDao.TabIndex = 5;
             btnXemCungHoangDao.Text = "Nhấn vào để biết cung hoàn đạo của bạn là gì";
             btnXemCungHoangDao.UseVisualStyleBackColor = true;
+            btnXemCungHoangDao.Click += btnXemCungHoangDao_Click_1;
             // 
             // txtCungHoangDao
             // 

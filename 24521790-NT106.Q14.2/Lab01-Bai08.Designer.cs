@@ -61,7 +61,6 @@
             txtNhapMonAn.Name = "txtNhapMonAn";
             txtNhapMonAn.Size = new Size(125, 27);
             txtNhapMonAn.TabIndex = 2;
-           
             // 
             // lbDanhSachMonAn
             // 
@@ -70,6 +69,7 @@
             lbDanhSachMonAn.Name = "lbDanhSachMonAn";
             lbDanhSachMonAn.Size = new Size(208, 204);
             lbDanhSachMonAn.TabIndex = 4;
+            lbDanhSachMonAn.SelectedIndexChanged += lbDanhSachMonAn_SelectedIndexChanged;
             // 
             // btnTimMon
             // 

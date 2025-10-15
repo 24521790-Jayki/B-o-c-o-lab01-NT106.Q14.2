@@ -69,6 +69,7 @@
             txtB.Name = "txtB";
             txtB.Size = new Size(125, 27);
             txtB.TabIndex = 3;
+            txtB.TextChanged += txtB_TextChanged;
             // 
             // lbB
             // 

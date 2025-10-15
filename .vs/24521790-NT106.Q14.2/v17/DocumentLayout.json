@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\jayki\\source\\repos\\24521790-NT106.Q14.2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{066CD13B-CA69-4F8D-A2A4-C953D5687820}|24521790-NT106.Q14.2\\24521790-NT106.Q14.2.csproj|c:\\users\\jayki\\source\\repos\\24521790-nt106.q14.2\\24521790-nt106.q14.2\\lab01-bai08.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{066CD13B-CA69-4F8D-A2A4-C953D5687820}|24521790-NT106.Q14.2\\24521790-NT106.Q14.2.csproj|solutionrelative:24521790-nt106.q14.2\\lab01-bai08.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{066CD13B-CA69-4F8D-A2A4-C953D5687820}|24521790-NT106.Q14.2\\24521790-NT106.Q14.2.csproj|c:\\users\\jayki\\source\\repos\\24521790-nt106.q14.2\\24521790-nt106.q14.2\\lab01-bai04.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{066CD13B-CA69-4F8D-A2A4-C953D5687820}|24521790-NT106.Q14.2\\24521790-NT106.Q14.2.csproj|solutionrelative:24521790-nt106.q14.2\\lab01-bai04.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{066CD13B-CA69-4F8D-A2A4-C953D5687820}|24521790-NT106.Q14.2\\24521790-NT106.Q14.2.csproj|c:\\users\\jayki\\source\\repos\\24521790-nt106.q14.2\\24521790-nt106.q14.2\\lab01-bai08.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{066CD13B-CA69-4F8D-A2A4-C953D5687820}|24521790-NT106.Q14.2\\24521790-NT106.Q14.2.csproj|solutionrelative:24521790-nt106.q14.2\\lab01-bai08.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{066CD13B-CA69-4F8D-A2A4-C953D5687820}|24521790-NT106.Q14.2\\24521790-NT106.Q14.2.csproj|c:\\users\\jayki\\source\\repos\\24521790-nt106.q14.2\\24521790-nt106.q14.2\\lab01-bai04.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{066CD13B-CA69-4F8D-A2A4-C953D5687820}|24521790-NT106.Q14.2\\24521790-NT106.Q14.2.csproj|solutionrelative:24521790-nt106.q14.2\\lab01-bai04.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{066CD13B-CA69-4F8D-A2A4-C953D5687820}|24521790-NT106.Q14.2\\24521790-NT106.Q14.2.csproj|c:\\users\\jayki\\source\\repos\\24521790-nt106.q14.2\\24521790-nt106.q14.2\\lab01-bai08.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{066CD13B-CA69-4F8D-A2A4-C953D5687820}|24521790-NT106.Q14.2\\24521790-NT106.Q14.2.csproj|solutionrelative:24521790-nt106.q14.2\\lab01-bai08.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{066CD13B-CA69-4F8D-A2A4-C953D5687820}|24521790-NT106.Q14.2\\24521790-NT106.Q14.2.csproj|c:\\users\\jayki\\source\\repos\\24521790-nt106.q14.2\\24521790-nt106.q14.2\\lab01-bai04.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{066CD13B-CA69-4F8D-A2A4-C953D5687820}|24521790-NT106.Q14.2\\24521790-NT106.Q14.2.csproj|solutionrelative:24521790-nt106.q14.2\\lab01-bai04.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,39 +27,39 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Lab01-Bai08.cs",
-              "DocumentMoniker": "C:\\Users\\jayki\\source\\repos\\24521790-NT106.Q14.2\\24521790-NT106.Q14.2\\Lab01-Bai08.cs",
-              "RelativeDocumentMoniker": "24521790-NT106.Q14.2\\Lab01-Bai08.cs",
-              "ToolTip": "C:\\Users\\jayki\\source\\repos\\24521790-NT106.Q14.2\\24521790-NT106.Q14.2\\Lab01-Bai08.cs",
-              "RelativeToolTip": "24521790-NT106.Q14.2\\Lab01-Bai08.cs",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAIwHEAAAAAAAAAAAAAAA==",
+              "Title": "Lab01-Bai04.cs",
+              "DocumentMoniker": "C:\\Users\\jayki\\source\\repos\\24521790-NT106.Q14.2\\24521790-NT106.Q14.2\\Lab01-Bai04.cs",
+              "RelativeDocumentMoniker": "24521790-NT106.Q14.2\\Lab01-Bai04.cs",
+              "ToolTip": "C:\\Users\\jayki\\source\\repos\\24521790-NT106.Q14.2\\24521790-NT106.Q14.2\\Lab01-Bai04.cs",
+              "RelativeToolTip": "24521790-NT106.Q14.2\\Lab01-Bai04.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwI4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T04:50:45.842Z",
+              "WhenOpened": "2025-10-15T06:03:39.198Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Lab01-Bai08.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\jayki\\source\\repos\\24521790-NT106.Q14.2\\24521790-NT106.Q14.2\\Lab01-Bai08.Designer.cs",
-              "RelativeDocumentMoniker": "24521790-NT106.Q14.2\\Lab01-Bai08.Designer.cs",
-              "ToolTip": "C:\\Users\\jayki\\source\\repos\\24521790-NT106.Q14.2\\24521790-NT106.Q14.2\\Lab01-Bai08.Designer.cs",
-              "RelativeToolTip": "24521790-NT106.Q14.2\\Lab01-Bai08.Designer.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAkwD8AAAALAAAAAAAAAA==",
+              "Title": "Lab01-Bai04.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\jayki\\source\\repos\\24521790-NT106.Q14.2\\24521790-NT106.Q14.2\\Lab01-Bai04.Designer.cs",
+              "RelativeDocumentMoniker": "24521790-NT106.Q14.2\\Lab01-Bai04.Designer.cs",
+              "ToolTip": "C:\\Users\\jayki\\source\\repos\\24521790-NT106.Q14.2\\24521790-NT106.Q14.2\\Lab01-Bai04.Designer.cs",
+              "RelativeToolTip": "24521790-NT106.Q14.2\\Lab01-Bai04.Designer.cs",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAIwJ8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T04:49:39.555Z",
+              "WhenOpened": "2025-10-15T06:02:09.733Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Lab01-Bai08.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\jayki\\source\\repos\\24521790-NT106.Q14.2\\24521790-NT106.Q14.2\\Lab01-Bai08.cs",
-              "RelativeDocumentMoniker": "24521790-NT106.Q14.2\\Lab01-Bai08.cs",
-              "ToolTip": "C:\\Users\\jayki\\source\\repos\\24521790-NT106.Q14.2\\24521790-NT106.Q14.2\\Lab01-Bai08.cs [Design]",
-              "RelativeToolTip": "24521790-NT106.Q14.2\\Lab01-Bai08.cs [Design]",
+              "Title": "Lab01-Bai04.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\jayki\\source\\repos\\24521790-NT106.Q14.2\\24521790-NT106.Q14.2\\Lab01-Bai04.cs",
+              "RelativeDocumentMoniker": "24521790-NT106.Q14.2\\Lab01-Bai04.cs",
+              "ToolTip": "C:\\Users\\jayki\\source\\repos\\24521790-NT106.Q14.2\\24521790-NT106.Q14.2\\Lab01-Bai04.cs [Design]",
+              "RelativeToolTip": "24521790-NT106.Q14.2\\Lab01-Bai04.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T04:42:24.644Z",
+              "WhenOpened": "2025-10-15T05:59:44.006Z",
               "EditorCaption": " [Design]"
             }
           ]

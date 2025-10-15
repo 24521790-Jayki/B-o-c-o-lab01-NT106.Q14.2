@@ -34,7 +34,8 @@ namespace _24521790_NT106.Q14._2
 
         private void button4_Click(object sender, EventArgs e)
         {
-
+            Lab01_Bai04 frm = new Lab01_Bai04();
+            frm.Show();
         }
 
         private void button5_Click(object sender, EventArgs e)

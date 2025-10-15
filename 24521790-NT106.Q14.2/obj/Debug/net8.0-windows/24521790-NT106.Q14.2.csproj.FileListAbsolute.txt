@@ -21,3 +21,5 @@ C:\Users\jayki\source\repos\24521790-NT106.Q14.2\24521790-NT106.Q14.2\obj\Debug\
 C:\Users\jayki\source\repos\24521790-NT106.Q14.2\24521790-NT106.Q14.2\obj\Debug\net8.0-windows\_24521790_NT106.Q14._2.Lab01_Bai06.resources
 C:\Users\jayki\source\repos\24521790-NT106.Q14.2\24521790-NT106.Q14.2\obj\Debug\net8.0-windows\_24521790_NT106.Q14._2.Lab01_Bai07.resources
 C:\Users\jayki\source\repos\24521790-NT106.Q14.2\24521790-NT106.Q14.2\obj\Debug\net8.0-windows\_24521790_NT106.Q14._2.Lab01_Bai08.resources
+C:\Users\jayki\source\repos\24521790-NT106.Q14.2\24521790-NT106.Q14.2\obj\Debug\net8.0-windows\_24521790_NT106.Q14._2.Lab01_Bai04.resources
+C:\Users\jayki\source\repos\24521790-NT106.Q14.2\24521790-NT106.Q14.2\obj\Debug\net8.0-windows\24521790-NT106.Q14.2.sourcelink.json
